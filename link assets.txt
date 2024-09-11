@@ -1,0 +1,7 @@
+bg.png = https://images3.alphacoders.com/133/thumb-1920-1338701.png
+
+1.webp = https://innius.com/wp-content/uploads/2018/02/Oyvind-with-bkgrd-785x1030.jpg
+
+2.webp = https://www.google.com/url?sa=i&url=https%3A%2F%2Ftoothbody.com%2Ftestimonials%2Fexperience-after-removal-of-root-canal-tooth%2Ftestimonial-user-2%2F&psig=AOvVaw2g-ymLpiPAGx0-8xSMsrPa&ust=1717643391651000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLC3m7W-w4YDFQAAAAAdAAAAABAJ
+
+3.jpg = https://mythemeshop.com/wp-content/themes/mts19/images/testimonials/Ryan-360x290.jpg

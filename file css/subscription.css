@@ -1,0 +1,115 @@
+
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f8f8f8;
+        color: #333;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+
+      header {
+        background-color: #111;
+        color: #fff;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .logo {
+        font-size: 24px;
+        font-weight: bold;
+      }
+
+      nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      nav ul li {
+        display: inline;
+        margin-right: 20px;
+      }
+
+      nav ul li a {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      .subscription {
+        max-width: 800px;
+        margin: 0 auto;
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+      }
+
+      .package {
+        flex: 1;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        transition: transform 0.3s ease;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+      }
+
+      .package:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      .package h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        color: #333;
+      }
+
+      .package p {
+        font-size: 16px;
+        margin-bottom: 10px;
+        color: #555;
+      }
+
+      .package .price {
+        font-size: 18px;
+        font-weight: bold;
+        color: #007bff;
+      }
+
+      .package .benefits {
+        margin-bottom: 10px;
+      }
+
+      .btn-pesan {
+        margin-top: auto;
+        margin-top: auto;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+        align-self: center;
+      }
+
+      .btn-pesan:hover {
+        background-color: #0056b3;
+      }
+
+      footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 20px;
+        text-align: center;
+        margin-top: auto;
+      }

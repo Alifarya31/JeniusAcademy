@@ -1,0 +1,140 @@
+
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f8f8f8;
+        color: #333;
+      }
+
+      header {
+        background-color: #111;
+        color: #fff;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .logo {
+        font-size: 24px;
+        font-weight: bold;
+      }
+
+      nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      nav ul li {
+        display: inline;
+        margin-right: 20px;
+      }
+
+      nav ul li a {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      .landing {
+        background-image: url("../foto/bg.png");
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        height: 400px;
+        padding: 100px 20px;
+      }
+
+      .landing h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+        color: #fff;
+      }
+
+      .landing p {
+        font-size: 18px;
+        margin-bottom: 20px;
+        color: #fff;
+      }
+
+      .btn-register {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 18px;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+      }
+
+      .btn-register:hover {
+        background-color: #0056b3;
+      }
+
+      .content {
+        max-width: 800px;
+        margin: 0 auto;
+        margin-top: 50px;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: left;
+      }
+
+      .content h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+        color: #333;
+      }
+
+      .content p {
+        font-size: 16px;
+        line-height: 1.6;
+        margin-bottom: 20px;
+        color: #555;
+      }
+
+      .feature,
+      .best-seller,
+      .faq {
+        margin-bottom: 30px;
+      }
+
+      .feature h2,
+      .best-seller h2,
+      .faq h2 {
+        color: #333;
+      }
+
+      .feature ul,
+      .best-seller ul,
+      .faq ul {
+        padding-left: 20px;
+      }
+
+      .feature ul li,
+      .best-seller ul li,
+      .faq ul li {
+        margin-bottom: 10px;
+        color: #555;
+      }
+
+      .feature ul li::before,
+      .best-seller ul li::before,
+      .faq ul li::before {
+        content: "\2022";
+        color: #007bff;
+        font-weight: bold;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+      }
+
+      footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 20px;
+        text-align: center;
+      }
